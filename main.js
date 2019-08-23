@@ -8,7 +8,7 @@ function chamarAPI(){
 }
 
 function callback(resultado){ 
-	// console.log(resultado);
+	// console.log(resultado); 
 	
 	var sMoedaDestino = $("#moeda_destino").val();
 	var fValor = resultado.rates[sMoedaDestino];
