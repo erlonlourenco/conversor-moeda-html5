@@ -7,7 +7,7 @@ function chamarAPI(){
 	$.get(endpoint, oParametros, callback );
 }
 
-function callback(resultado){ 
+function callback(resultado){  
 	// console.log(resultado); 
 	
 	var sMoedaDestino = $("#moeda_destino").val();
